@@ -1,0 +1,207 @@
+#safety {
+    margin: 50px 0;
+    scroll-margin-top: 50px;
+}
+
+#safety h1 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#safety p {
+    padding: 0 75px;
+    margin: 15px 0;
+    line-height: 25px;
+}
+
+#safety .safety-list {
+   width: 50%;
+   margin: 25px auto;
+}
+
+#safety li {
+    margin: 10px 0;
+    font-weight: bold;
+    text-indent: -1.4em;
+}
+
+.remembrance {
+   padding: 50px 0;
+   background: #f1f1f1;
+}
+
+.remembrance h1 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.memorial {
+    margin: 25px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.memorial-img {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.memorial-img .guardsmen {
+    margin-top: 10px;
+}
+
+.memorial-img p {
+    line-height: 25px;
+}
+
+.memorial-img img {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #fff;
+    border-radius: 5px;
+}
+
+.victims p {
+    line-height: 25px;
+}
+
+.footer-top {
+    background: #0b3c62;
+    padding: 15px 0;
+}
+
+.footer-top p {
+    text-align: center;
+    color: #fff;
+    line-height: 25px;
+    padding: 0 75px;
+}
+
+/*.footer-top a {
+    color: #fff;
+}*/
+
+.footer {
+    background: #40acf1;
+    padding: 15px 0;
+}
+
+.footer-contents {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-contents img {
+    width: 10%;
+}
+
+.footer-contents p {
+    color: #fff;
+}
+
+.footer .line {
+    background: #fff;
+    width: 75%;
+    height: 2px;
+    margin: 15px auto;
+}
+
+.footer-bottom p {
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+}
+
+.footer-bottom a {
+   text-decoration: none;
+   color: #fff;
+}
+
+@media (max-width: 820px) {
+    #safety {
+        scroll-margin-top: 300px;
+    }
+
+    #safety .safety-list {
+        width: 65%;
+    }
+
+    .memorial-img {
+        width: 35%;
+    }
+
+    .footer-top p {
+       padding: 0 25px; 
+    }
+}
+
+@media (max-width: 600px) {
+    #safety p {
+        padding: 0 30px;
+        text-align: center;
+    }
+
+    #safety .safety-list {
+        width: 75%;
+        margin-right: 35px;
+    }
+
+    .safety-list li {
+        font-size: 1.2rem;
+    }
+
+    .memorial {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .memorial-img {
+        width: 85%;
+        margin: 25px 0;
+    }
+
+    .victims p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .guardsmen p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .footer-top p {
+        /*margin: 25px 0;*/
+        padding: 0 25px;
+    }
+
+    .footer-top a {
+        color: #fff;
+    }
+
+    .footer-contents {
+        flex-direction: column;
+    }
+
+    .footer-contents img {
+        width: 50%;
+    }
+
+    .footer-contents p {
+        text-align: center;
+        padding: 0 25px;
+    }
+
+    .footer-contents .social-icons {
+        margin: 25px 0 0 25px;
+    }
+
+    .footer-contents .social-icons i {
+        font-size: 1.8rem;
+    }
+}

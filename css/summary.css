@@ -1,0 +1,151 @@
+#summary {
+    padding: 25px 0 50px 0;
+    background: #f1f1f1;
+}
+
+#summary h1 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.setup {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.setup-text {
+   width: 50%;
+   padding-left: 75px;
+}
+
+.setup-text p {
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+.setup-text a {
+    text-decoration: none;
+    color: #0b3c62;
+    font-weight: bold;
+}
+
+.setup-text a:hover {
+    text-decoration: underline;
+}
+
+.setup-img {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.setup-img img {
+    width: 75%;
+    border-radius: 5px;
+}
+
+.setup-img a {
+    text-align: center;
+}
+
+.setup-img p {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.setup-img a {
+    text-decoration: none;
+    color: #0b3c62;
+}
+
+.setup-img a:hover {
+    text-decoration: underline;
+}
+
+.setup-img h1 {
+    margin-top: 15px;
+}
+
+.stats {
+    margin-top: 25px;
+}
+
+.stat-columns {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.stat-column {
+    border-right: 2px solid #333;
+    padding-right: 25px;
+}
+
+.stat-column:nth-child(2) {
+    border-right: none;
+    padding-left: 25px;
+}
+
+.stat-column p {
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+.source {
+    margin-top: 5px;
+}
+
+@media (max-width: 820px) {
+    #summary {
+        padding: 25px 0 25px 0;
+        scroll-margin-top: 225px;
+}
+
+    .setup {
+        flex-direction: column;
+    }
+
+    .setup-text {
+        width: 85%;
+        margin: auto;
+        padding-left: 0;
+
+    }
+
+    .setup-img {
+        width: 65%;
+    }
+}
+
+@media (max-width: 600px) {
+    .setup-text p {
+        text-align: center;
+    }
+
+    .setup-img {
+        width: 95%;
+    }
+
+    .stat-columns {
+        flex-direction: column;
+    }
+
+    .stat-column {
+        border-right: none;
+        border-bottom: 2px solid #333;
+    }
+
+    .stat-column:nth-child(2) {
+        padding-left: 0;
+        border-bottom: none;
+    }
+
+    .stat-column p {
+        font-size: 1.2rem;
+    }
+}
