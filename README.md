@@ -1,4 +1,4 @@
-# Responsive Navbar
+# Xenia Tornado Research Website
 ### Live Site: https://geraldandrews.github.io/Xenia-Tornado-Website/
 
 ### Project Description: Personal
