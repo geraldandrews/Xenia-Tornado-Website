@@ -17,6 +17,7 @@
 #safety .safety-list {
    width: 50%;
    margin: 25px auto;
+   list-style: none;
 }
 
 #safety li {
